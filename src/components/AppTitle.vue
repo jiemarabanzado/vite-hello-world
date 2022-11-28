@@ -2,7 +2,7 @@
     export default{
         data(){
             return{
-                title: 'template creazione files'
+                title: 'La mia prima app con Vite'
             }
         }
     }

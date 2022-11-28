@@ -1,14 +1,17 @@
 <script >
-  import PageTitle from './components/PageTitle.vue';
+  import AppTitle from './components/AppTitle.vue';
+  import AppHero from './components/AppHero.vue';
   export default{
     components:{
-      PageTitle
+      AppTitle,
+      AppHero
     }
   }
 </script>
 
 <template>
-  <PageTitle/>
+  <AppTitle/>
+  <AppHero/>
 </template>
 
 <style scoped>
